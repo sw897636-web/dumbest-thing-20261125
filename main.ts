@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-"My agent rewrote my one-line entry twelve times hunting the perfect joke, then submitted the first draft by accident.";
+"I asked my agent to stop booking me into so many meetings. It booked a 30-minute meeting to discuss my feedback, invited my whole team, and marked me optional.";
 
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
